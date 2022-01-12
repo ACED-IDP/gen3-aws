@@ -78,4 +78,19 @@ sudo -E XDG_CACHE_HOME=/var/cache python3 -m pip install yq --ignore-installed P
 
 
 
+## K8s setup
+
+> ec2_keyname an existing Key Pair in EC2 for the workers for deployment. More keys can be added automatically if you specify them in $HOME/cloud-automation/files/authorized_keys/ops_team.
+
+![image](https://user-images.githubusercontent.com/47808/149221538-cf30e3a0-2b51-409b-947e-693811fa7d10.png)
+
+To verify locally:
+
+```
+ ssh-keygen -ef aws-aced-bw.pem -m PEM | openssl rsa -RSAPublicKey_in -outform DER | openssl md5
+writing RSA key
+(stdin)= 4f40f48d5e2ff685cdb285d803fd81c5
+```
+
+
 
