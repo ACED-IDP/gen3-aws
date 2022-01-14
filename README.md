@@ -104,5 +104,13 @@ The desired instances by default is `5` for testing, scale that back to 1 `$$$`
 
 
 
+## Domain
+
+You will need to set up a Route53 hosted zone, with certificate that points back to the ELB that terraform created
+
+![image](https://user-images.githubusercontent.com/47808/149583022-d52e9741-e4ec-4804-b16d-c368b921aec1.png)
+
+![image](https://user-images.githubusercontent.com/47808/149582851-f7ed45d4-a9a7-4444-af15-ecab56fa1bf8.png)
+
 
 
