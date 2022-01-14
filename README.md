@@ -69,15 +69,6 @@ You will also need to patch `kube-setup-workvm.sh` see the `yq install`
 sudo -E XDG_CACHE_HOME=/var/cache python3 -m pip install yq --ignore-installed PyYAML
 ```
 
-* Setup Route53 and certificate
-
-![image](https://user-images.githubusercontent.com/47808/149029267-406011d8-b149-46c7-9ed5-14edeb78cd8d.png)
-
-
-![image](https://user-images.githubusercontent.com/47808/149029468-45231a4d-f73d-42e0-b590-a4b7071f3530.png)
-
-
-
 ## K8s setup
 
 See https://github.com/uc-cdis/cloud-automation/blob/master/doc/csoc-free-commons-steps.md#third-part-deploy-the-kubernetes-cluster
@@ -106,6 +97,9 @@ The desired instances by default is `5` for testing, scale that back to 1 `$$$`
 
 ## Domain
 
+* Setup Route53 and certificate
+
+ 
 You will need to set up a Route53 hosted zone, with certificate that points back to the ELB that terraform created
 
 ![image](https://user-images.githubusercontent.com/47808/149583022-d52e9741-e4ec-4804-b16d-c368b921aec1.png)
