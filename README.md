@@ -96,6 +96,13 @@ writing RSA key
 
 peering_vpc_id
 
+### K8s scaling
+
+The desired instances by default is `5` for testing, scale that back to 1 `$$$`
+
+![image](https://user-images.githubusercontent.com/47808/149557076-5b996690-ba42-4bce-9658-48c42331ee5e.png)
+
+
 
 
 
