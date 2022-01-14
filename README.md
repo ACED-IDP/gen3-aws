@@ -114,3 +114,10 @@ You will need to set up a Route53 hosted zone, with certificate that points back
 
 
 
+## Service configuration
+
+Point of confusion:
+  * You will need to edit `<environment>/apis_configs/fence-config.yaml` **not** the one in Gen3Secrets/apis_configs
+
+
+
