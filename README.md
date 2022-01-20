@@ -114,4 +114,15 @@ Point of confusion:
   * You will need to edit `<environment>/apis_configs/fence-config.yaml` **not** the one in Gen3Secrets/apis_configs
 
 
+## Post install steps
+
+* You will need to bring up elastic search
+  `gen3 workon cdistest <commons-name>_es; gen3 tfplan ; gen3 tfapply`
+  
+* Schedule an etl job
+  `gen3 runjob etl`
+
+* And launch guppy
+  `gen3 roll guppy`
+
 
