@@ -117,12 +117,13 @@ Point of confusion:
 ## Post install steps
 
 * You will need to bring up elastic search
-  `gen3 workon cdistest <commons-name>_es; gen3 tfplan ; gen3 tfapply`
+  * `gen3 workon cdistest <commons-name>_es; gen3 tfplan ; gen3 tfapply`
+  * `gen3 kube-setup-aws-es-proxy`
   
 * Schedule an etl job
-  `gen3 runjob etl`
+  * `gen3 runjob etl`
 
 * And launch guppy
-  `gen3 roll guppy`
+  * `gen3 roll guppy`
 
 
