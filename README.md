@@ -125,5 +125,6 @@ Point of confusion:
 
 * And launch guppy
   * `gen3 roll guppy`
+  * see `gen3 gitops --help` for more
 
 
