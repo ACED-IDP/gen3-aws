@@ -124,7 +124,10 @@ Point of confusion:
   * `gen3 runjob etl`
 
 * And launch guppy
-  * `gen3 roll guppy`
+  * `gen3 gitops configmaps guppy; gen3 roll guppy`
   * see `gen3 gitops --help` for more
 
+* Implement portal changes
+ * `gen3 kube-setup-portal ; gen3 roll portal`
+ 
 
