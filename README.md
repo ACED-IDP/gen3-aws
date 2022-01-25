@@ -24,7 +24,7 @@ see https://github.com/uc-cdis/cloud-automation/blob/master/doc/csoc-free-common
       {
         "Effect": "Allow",
         "Principal": {
-          "AWS": "arn:aws:iam::280374789400:root"
+          "AWS": "arn:aws:iam::<ACCOUNT_ID>:root"
         },
         "Action": "sts:AssumeRole",
         "Condition": {}
