@@ -89,7 +89,9 @@ peering_vpc_id
 
 ### K8s scaling
 
-The desired instances by default is `5` for testing, scale that back to 1 `$$$`
+The desired instances by default is `5` for testing, scale that up or down.  If your services are pending, increase.  You can scale this down to 0 to shut down the system and avoid `$$$`.   
+
+**TODO** How to change deployment descriptions to avoid replicating services, increase the number of pods per node, etc.
 
 ![image](https://user-images.githubusercontent.com/47808/149557076-5b996690-ba42-4bce-9658-48c42331ee5e.png)
 
