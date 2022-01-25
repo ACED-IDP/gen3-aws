@@ -128,6 +128,6 @@ Point of confusion:
   * see `gen3 gitops --help` for more
 
 * Implement portal changes
- * `gen3 kube-setup-portal ; gen3 roll portal`
+  * `gen3 kube-setup-portal ; gen3 roll portal`
  
 
