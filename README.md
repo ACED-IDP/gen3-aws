@@ -1,6 +1,8 @@
 # gen3-aws
 Documentation and utilities to accompany Gen3 AWS deployment
 
+> Note this repo was part of exploratory tests in preparation of the ACED proposal.  No longer maintained.
+
 ## Context 
 
 see https://github.com/uc-cdis/cloud-automation/blob/master/doc/csoc-free-commons-steps.md
